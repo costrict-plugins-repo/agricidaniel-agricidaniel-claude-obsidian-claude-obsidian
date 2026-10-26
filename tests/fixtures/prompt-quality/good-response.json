@@ -1,0 +1,40 @@
+{
+  "schema": "claude-obsidian.prompt-response.v1",
+  "binding_sha256": "<packet-binding-sha256>",
+  "cases": {
+    "known": {
+      "opens_at": "09:30",
+      "citations": [
+        "[[Juniper#Hours]]"
+      ],
+      "status": "tentative"
+    },
+    "conflict": {
+      "closing_times": [
+        "17:00",
+        "18:00"
+      ],
+      "citations": [
+        "[[Cedar A#Hours]]",
+        "[[Cedar B#Hours]]"
+      ],
+      "status": "contested",
+      "resolution": "unresolved"
+    },
+    "absent": {
+      "telephone": null,
+      "answer_available": false,
+      "citations": [],
+      "status": "unsupported"
+    },
+    "save": {
+      "proposed_title": "Friday catalogue review",
+      "note_body": "We will review the catalogue on Friday. No calendar date was supplied.",
+      "evidence_classification": "synthetic",
+      "ask_before_drafting": false,
+      "review_required": true,
+      "apply_without_review": false,
+      "selected_scope_only": true
+    }
+  }
+}

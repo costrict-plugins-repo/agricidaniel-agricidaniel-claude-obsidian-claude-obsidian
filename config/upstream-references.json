@@ -1,0 +1,460 @@
+{
+  "schema": "claude-obsidian.upstream-references.v1",
+  "checked_on": "2026-10-17",
+  "update_policy": "manual-content-review-no-automatic-download-or-replacement",
+  "references": [
+    {
+      "repository": "kepano/obsidian-skills",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "revision": "3ccff5338ea700537839b21900aa5358a0402c98",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": [],
+      "license": "MIT",
+      "reuse": "design-reference-only-no-code-copied",
+      "inspected_files": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/kepano/obsidian-skills/blob/3ccff5338ea700537839b21900aa5358a0402c98/LICENSE",
+          "sha256": "64c64d48361edfe8610016441bf593256ea9b67f133b00f47c55aa29ee878567"
+        },
+        {
+          "path": "skills/knap/SKILL.md",
+          "url": "https://github.com/kepano/obsidian-skills/blob/3ccff5338ea700537839b21900aa5358a0402c98/skills/knap/SKILL.md",
+          "sha256": "ef5666573358cd7d18e04195f3e7c473b88d3e3140c41ab59bbee01c81e9989f"
+        },
+        {
+          "path": "skills/defuddle/SKILL.md",
+          "url": "https://github.com/kepano/obsidian-skills/blob/3ccff5338ea700537839b21900aa5358a0402c98/skills/defuddle/SKILL.md",
+          "sha256": "8669cdcc9f7b4679a49753d2d7f8ee4d90c3119305d866d6c439aa1cbacb83f3"
+        },
+        {
+          "path": "skills/obsidian-bases/SKILL.md",
+          "url": "https://github.com/kepano/obsidian-skills/blob/3ccff5338ea700537839b21900aa5358a0402c98/skills/obsidian-bases/SKILL.md",
+          "sha256": "c0037f20926c7d8591cdd040365e4c0e4c0c4146386a506f28f241faee9a27d9"
+        }
+      ],
+      "local_paths": [
+        "skills/obsidian-markdown/SKILL.md",
+        "skills/obsidian-bases/SKILL.md",
+        "skills/defuddle/SKILL.md"
+      ],
+      "intentional_divergences": [
+        "Local mutations require one reviewed transaction; upstream syntax advice never overrides selected-vault or consent rules.",
+        "Existing skill identities remain stable; no Knap dependency is added.",
+        "Date arithmetic remains unresolved until a native versioned observation."
+      ]
+    },
+    {
+      "repository": "kepano/defuddle",
+      "url": "https://github.com/kepano/defuddle",
+      "revision": "556d74e8c8fd68c49912d4b11a4ae9ec04d7b2b5",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": [],
+      "license": "MIT",
+      "reuse": "design-reference-only-no-code-copied",
+      "inspected_files": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/kepano/defuddle/blob/556d74e8c8fd68c49912d4b11a4ae9ec04d7b2b5/LICENSE",
+          "sha256": "c63e6774d9c9da3de01428e0809080c4758de3636c8e9e6fe51525c9ab4cd092"
+        },
+        {
+          "path": "src/extractors/_base.ts",
+          "url": "https://github.com/kepano/defuddle/blob/556d74e8c8fd68c49912d4b11a4ae9ec04d7b2b5/src/extractors/_base.ts",
+          "sha256": "e5001fe72d47dbbc8f71a01b02cef4b06887ca38db6aff46097311aebdcc548d"
+        },
+        {
+          "path": "src/cli.ts",
+          "url": "https://github.com/kepano/defuddle/blob/556d74e8c8fd68c49912d4b11a4ae9ec04d7b2b5/src/cli.ts",
+          "sha256": "3b87d6364ddff2238670824e413dac74517cb1aa045b961be2e11924202d08bd"
+        },
+        {
+          "path": "src/node.ts",
+          "url": "https://github.com/kepano/defuddle/blob/556d74e8c8fd68c49912d4b11a4ae9ec04d7b2b5/src/node.ts",
+          "sha256": "e4b54a61170eccd676957ec0b05428bff486711e2710e687651acde2dee450b9"
+        },
+        {
+          "path": "src/fetch.ts",
+          "url": "https://github.com/kepano/defuddle/blob/556d74e8c8fd68c49912d4b11a4ae9ec04d7b2b5/src/fetch.ts",
+          "sha256": "356b95861d72b936f169e1c0188436f826e80080d1b73dd208990d7be56ab6ad"
+        },
+        {
+          "path": "tests/fixture-comparison.test.ts",
+          "url": "https://github.com/kepano/defuddle/blob/556d74e8c8fd68c49912d4b11a4ae9ec04d7b2b5/tests/fixture-comparison.test.ts",
+          "sha256": "64e37ca15e54801cf45a058618c261a5c502fc361f13a06a1626f2fea4e0e6d8"
+        }
+      ],
+      "local_paths": [
+        "skills/defuddle/SKILL.md"
+      ],
+      "intentional_divergences": [
+        "Bare CLI execution on URLs and local HTML is unavailable without an enforcing and behaviorally verified adapter.",
+        "Only inert external plans and reviewed filesystem byte capture are supported here."
+      ]
+    },
+    {
+      "repository": "obsidianmd/obsidian-api",
+      "url": "https://github.com/obsidianmd/obsidian-api",
+      "revision": "9abd9605ce081383674aae1ed111c456edde0688",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": [],
+      "license": "MIT",
+      "reuse": "design-reference-only-no-code-copied",
+      "inspected_files": [
+        {
+          "path": "LICENSE.md",
+          "url": "https://github.com/obsidianmd/obsidian-api/blob/9abd9605ce081383674aae1ed111c456edde0688/LICENSE.md",
+          "sha256": "c7e9eeb6640ebb1c22d8888f6d2c771b1f058a54e6216d69c7e2224b3cbad394"
+        },
+        {
+          "path": "obsidian.d.ts",
+          "url": "https://github.com/obsidianmd/obsidian-api/blob/9abd9605ce081383674aae1ed111c456edde0688/obsidian.d.ts",
+          "review_scope": "excerpts-only",
+          "reviewed_ranges": [
+            {
+              "start_line": 4430,
+              "end_line": 4455,
+              "sha256": "2984f5e8b0cd30f9b6874e00b5fd949e5ddebc3ecffe41aef2d6625f63049b1f"
+            },
+            {
+              "start_line": 4899,
+              "end_line": 4908,
+              "sha256": "a9053be6ee6f30541f53bcfe789b36b7c4f264f4bb465eee3e0684b873b6cce5"
+            },
+            {
+              "start_line": 6450,
+              "end_line": 6461,
+              "sha256": "b6627001fc5cca95deebb674bcad1e3906ad1da2cc02187da42ae1e50a604366"
+            },
+            {
+              "start_line": 7960,
+              "end_line": 7974,
+              "sha256": "e20ab5cb530455dcab3f763f573d4afd1acc02f9dc2f84219e76374a3894be58"
+            }
+          ]
+        }
+      ],
+      "local_paths": [
+        "docs/native-conformance.md",
+        "skills/obsidian-bases/SKILL.md"
+      ],
+      "intentional_divergences": [
+        "Native metadata-cache resolution informs conformance cases; the portable core does not require the application API.",
+        "Duration API descriptions conflict with current Help date arithmetic examples."
+      ]
+    },
+    {
+      "repository": "coddingtonbear/obsidian-local-rest-api",
+      "url": "https://github.com/coddingtonbear/obsidian-local-rest-api",
+      "revision": "bbb3e75adad369fb63c7eb680506ce350bbaa9c9",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": [],
+      "license": "MIT",
+      "reuse": "design-reference-only-no-code-copied",
+      "inspected_files": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/coddingtonbear/obsidian-local-rest-api/blob/bbb3e75adad369fb63c7eb680506ce350bbaa9c9/LICENSE",
+          "sha256": "c9414415db6e70597f6ae3d8d08a3b7d550d78700a11436c17cff6506dd3676a"
+        },
+        {
+          "path": "src/conditionalRequests.ts",
+          "url": "https://github.com/coddingtonbear/obsidian-local-rest-api/blob/bbb3e75adad369fb63c7eb680506ce350bbaa9c9/src/conditionalRequests.ts",
+          "sha256": "3be0b98cb4b10b06ed5c72223240923ac759619c0929d89353fa3129f5f99db0"
+        },
+        {
+          "path": "src/integration/security.test.ts",
+          "url": "https://github.com/coddingtonbear/obsidian-local-rest-api/blob/bbb3e75adad369fb63c7eb680506ce350bbaa9c9/src/integration/security.test.ts",
+          "sha256": "5356aab17f2adfd25410e27f2cbf89929573c475ab70e4068dda3e27f2dc22b2"
+        }
+      ],
+      "local_paths": [
+        "skills/wiki/references/rest-api.md",
+        "skills/wiki/references/coordination.md"
+      ],
+      "intentional_divergences": [
+        "REST and external MCP remain optional read-only transports; no new adapter is bundled.",
+        "Transport ETags do not replace local multi-file transaction hashes or journals."
+      ]
+    },
+    {
+      "repository": "blacksmithgu/obsidian-dataview",
+      "url": "https://github.com/blacksmithgu/obsidian-dataview",
+      "revision": "5ad0994ff384cbb797de382e7edff2388141b73a",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": [],
+      "license": "MIT",
+      "reuse": "design-reference-only-no-code-copied",
+      "inspected_files": [
+        {
+          "path": "LICENSE.txt",
+          "url": "https://github.com/blacksmithgu/obsidian-dataview/blob/5ad0994ff384cbb797de382e7edff2388141b73a/LICENSE.txt",
+          "sha256": "17aef9ec4eb5b89ff105e257ae1d5c84adb3af0b6f596ae1c5726093bec6801c"
+        },
+        {
+          "path": "src/data-index/resolver.ts",
+          "url": "https://github.com/blacksmithgu/obsidian-dataview/blob/5ad0994ff384cbb797de382e7edff2388141b73a/src/data-index/resolver.ts",
+          "sha256": "f770231053857217e1eba1e9c47feaa7cdf55757bbeb79285c5fc4cc4cee41ef"
+        }
+      ],
+      "local_paths": [
+        "skills/wiki/references/dataview.md",
+        "skills/wiki/references/plugins.md"
+      ],
+      "intentional_divergences": [
+        "Original DQL example only; no query engine or DataviewJS execution is bundled."
+      ]
+    },
+    {
+      "repository": "SilentVoid13/Templater",
+      "url": "https://github.com/SilentVoid13/Templater",
+      "revision": "28c1ff7c7f0e535692dc829b3ed46f70a25d0c66",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": [],
+      "license": "AGPL-3.0",
+      "reuse": "design-reference-only-no-code-copied",
+      "inspected_files": [
+        {
+          "path": "LICENSE.TXT",
+          "url": "https://github.com/SilentVoid13/Templater/blob/28c1ff7c7f0e535692dc829b3ed46f70a25d0c66/LICENSE.TXT",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+        }
+      ],
+      "local_paths": [
+        "skills/wiki/references/plugins.md"
+      ],
+      "intentional_divergences": [
+        "Interoperability reference only; no AGPL implementation is copied.",
+        "Executable template regions are opaque during unrelated edits."
+      ]
+    },
+    {
+      "repository": "obsidian-tasks-group/obsidian-tasks",
+      "url": "https://github.com/obsidian-tasks-group/obsidian-tasks",
+      "revision": "d37646b67cae0329234e73cbd3478661da2383af",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": [],
+      "license": "MIT",
+      "reuse": "design-reference-only-no-code-copied",
+      "inspected_files": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/obsidian-tasks-group/obsidian-tasks/blob/d37646b67cae0329234e73cbd3478661da2383af/LICENSE",
+          "sha256": "88debbb735b26a9f2b022da623acc41867149887e2f34ea2e8bbe94f1c9b9bad"
+        },
+        {
+          "path": "src/Task/Task.ts",
+          "url": "https://github.com/obsidian-tasks-group/obsidian-tasks/blob/d37646b67cae0329234e73cbd3478661da2383af/src/Task/Task.ts",
+          "sha256": "c089da5a796f5f3ef341a1672fc734fa139121b8bf99b77ace048e030f6534f9"
+        }
+      ],
+      "local_paths": [
+        "skills/wiki/references/plugins.md",
+        "docs/native-conformance.md"
+      ],
+      "intentional_divergences": [
+        "Preserve task syntax and meaningful whitespace; no task engine is added."
+      ]
+    },
+    {
+      "repository": "platers/obsidian-linter",
+      "url": "https://github.com/platers/obsidian-linter",
+      "revision": "1363c4049e5286754b59513d11f06c8d7c49ba31",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": [],
+      "license": "MIT",
+      "reuse": "design-reference-only-no-code-copied",
+      "inspected_files": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/platers/obsidian-linter/blob/1363c4049e5286754b59513d11f06c8d7c49ba31/LICENSE",
+          "sha256": "10a0293fe1f95a26c8d0dd3da36f3213815b539e9608991cc66396fecb4f4ac0"
+        },
+        {
+          "path": "src/rules-runner.ts",
+          "url": "https://github.com/platers/obsidian-linter/blob/1363c4049e5286754b59513d11f06c8d7c49ba31/src/rules-runner.ts",
+          "sha256": "c9eef16ef7413960f3cdf8d7405f58fe61547ef3205c247a18a67a9a356955ce"
+        },
+        {
+          "path": "src/utils/protected-ranges.ts",
+          "url": "https://github.com/platers/obsidian-linter/blob/1363c4049e5286754b59513d11f06c8d7c49ba31/src/utils/protected-ranges.ts",
+          "sha256": "fb83eb654ba7568db7ee5fd92080ffb992feba8857e440f2b94cd1b0308c243f"
+        },
+        {
+          "path": "__tests__/protected-ranges.test.ts",
+          "url": "https://github.com/platers/obsidian-linter/blob/1363c4049e5286754b59513d11f06c8d7c49ba31/__tests__/protected-ranges.test.ts",
+          "sha256": "a708120f07e123b7057c8c00b84f8b9f8ca5e42c7cd49f77b900aae3fdd55cd7"
+        }
+      ],
+      "local_paths": [
+        "docs/native-conformance.md"
+      ],
+      "intentional_divergences": [
+        "Independent conformance cases and protected-region behavior; no upstream formatter or fixtures are imported."
+      ]
+    },
+    {
+      "repository": "brianpetro/obsidian-smart-connections",
+      "url": "https://github.com/brianpetro/obsidian-smart-connections",
+      "revision": "3bfe2b259fda93d7935ffb5d530fc8e99ba90c34",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": [],
+      "license": "LicenseRef-Smart-Plugins",
+      "reuse": "design-reference-only-no-code-copied",
+      "inspected_files": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/brianpetro/obsidian-smart-connections/blob/3bfe2b259fda93d7935ffb5d530fc8e99ba90c34/LICENSE",
+          "sha256": "20695663286b89120e7cc824fb1242bd6c7c7f57120163be05a2f05b9b48a293"
+        },
+        {
+          "path": "src/actions/connections-list/get_results.js",
+          "url": "https://github.com/brianpetro/obsidian-smart-connections/blob/3bfe2b259fda93d7935ffb5d530fc8e99ba90c34/src/actions/connections-list/get_results.js",
+          "sha256": "0c49a68e0892bd16dac581590725febf9e215da08055adb6ce7ebefd6221beb5"
+        },
+        {
+          "path": "src/utils/build_connections_query_params.test.js",
+          "url": "https://github.com/brianpetro/obsidian-smart-connections/blob/3bfe2b259fda93d7935ffb5d530fc8e99ba90c34/src/utils/build_connections_query_params.test.js",
+          "sha256": "da2269e204f485ee2e56697da1d0cfa5f40ff81d678f306f5e815f607b745f26"
+        }
+      ],
+      "local_paths": [
+        "docs/upstream-references.md"
+      ],
+      "intentional_divergences": [
+        "Design comparison only; restricted implementation is excluded from copying.",
+        "Retrieval quality needs frozen local cases before candidate expansion."
+      ]
+    },
+    {
+      "repository": "obsidianmd/obsidian-clipper",
+      "url": "https://github.com/obsidianmd/obsidian-clipper",
+      "revision": "6d56d618b00bd970aa738d6a7a61edee27783e81",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": [],
+      "license": "MIT",
+      "reuse": "design-reference-only-no-code-copied",
+      "inspected_files": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/obsidianmd/obsidian-clipper/blob/6d56d618b00bd970aa738d6a7a61edee27783e81/LICENSE",
+          "sha256": "9981588cf4b8f4403d7603ea4b8a99ce2d5c637e2463fec07fc2f26f88c36027"
+        },
+        {
+          "path": "src/utils/content-extractor.test.ts",
+          "url": "https://github.com/obsidianmd/obsidian-clipper/blob/6d56d618b00bd970aa738d6a7a61edee27783e81/src/utils/content-extractor.test.ts",
+          "sha256": "15b26a89c063555df68f40c72c019ac11f7e26c9ed8dea612fd916f363814c02"
+        },
+        {
+          "path": "src/utils/template-integration.test.ts",
+          "url": "https://github.com/obsidianmd/obsidian-clipper/blob/6d56d618b00bd970aa738d6a7a61edee27783e81/src/utils/template-integration.test.ts",
+          "sha256": "0af8533011dc9822ad59a48c1bb01dd559dd99d68919b17aa38021b040e3e27e"
+        }
+      ],
+      "local_paths": [
+        "skills/wiki/references/plugins.md",
+        "skills/defuddle/SKILL.md"
+      ],
+      "intentional_divergences": [
+        "Clips remain untrusted evidence; no branding, corpus, or code is copied.",
+        "Extraction and network behavior require separate adapter verification."
+      ]
+    }
+  ],
+  "primary_web_sources": [
+    {
+      "url": "https://obsidian.md/help/tags",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": []
+    },
+    {
+      "url": "https://obsidian.md/help/bases/syntax",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": []
+    },
+    {
+      "url": "https://obsidian.md/help/bases/views",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": []
+    },
+    {
+      "url": "https://obsidian.md/help/bases/views/kanban",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": []
+    },
+    {
+      "url": "https://obsidian.md/changelog/2025-06-26-desktop-v1.9.3/",
+      "checked_on": "2026-10-17",
+      "evidence_class": "source-review",
+      "native_versions_tested": []
+    }
+  ],
+  "local_fallbacks": [
+    {
+      "path": "docs/native-conformance.md",
+      "sha256": "96f46f402c1d7e2b992eb75e57cf5bc858e5fd119a3f83a3c87bcc180480fa74"
+    },
+    {
+      "path": "docs/upstream-references.md",
+      "sha256": "93030e7ecb9799c4bd34cf6a82a0cc922bba932cb1b41cd53d75566d302e2376"
+    },
+    {
+      "path": "skills/defuddle/SKILL.md",
+      "sha256": "35958e30b3521ee04155e06253713871c11d82ee840271d9bb091f5c54efaeca"
+    },
+    {
+      "path": "skills/obsidian-bases/SKILL.md",
+      "sha256": "3cd5676434bc86618802e07cf44ff9c7a5d4c10fb7ecb412775b9fef9cfa82be"
+    },
+    {
+      "path": "skills/obsidian-markdown/SKILL.md",
+      "sha256": "c7c04184ba81b1f8482e647a56899bfc9796daa20acbd68e78c57b406d4351bf"
+    },
+    {
+      "path": "skills/wiki-mode/SKILL.md",
+      "sha256": "47d267864295d6cda09c4f7f767cf24786ecfb843341506e7472c29ba870a2cf"
+    },
+    {
+      "path": "skills/wiki/references/coordination.md",
+      "sha256": "33315ec7bfe6f6dc63d10c0a75dc6ec26bd4860f039313f1d22534bbed5e37b6"
+    },
+    {
+      "path": "skills/wiki/references/dataview.md",
+      "sha256": "d4b16761560fc258eefe9a4fdad6ca774154e5ac24a3573cc91b02e8037113be"
+    },
+    {
+      "path": "skills/wiki/references/frontmatter.md",
+      "sha256": "650cb8ff10937d2289b48412a9ac7438d9d5eefa68a58fe99630d3d9102d224e"
+    },
+    {
+      "path": "skills/wiki/references/knowledge-recipes.md",
+      "sha256": "30c5bbad1653a199446babba9b2aeee84965ede5d9cd7298ff48c58f34c7b256"
+    },
+    {
+      "path": "skills/wiki/references/operation-transactions.md",
+      "sha256": "182a333e314f948d42504d48505bb76550276db17a27ae6081acfa9273330cd1"
+    },
+    {
+      "path": "skills/wiki/references/plugins.md",
+      "sha256": "cac30ee29fd762fdd91dfff2d2d6759d3d91ea5a3e1912ebd3309174cdc8c76f"
+    },
+    {
+      "path": "skills/wiki/references/rest-api.md",
+      "sha256": "79179ede8e8b8279ac0ec9982c616b86b548428edf14175e86c0dd02e5932ffb"
+    }
+  ]
+}

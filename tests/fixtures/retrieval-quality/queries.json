@@ -1,0 +1,20 @@
+{
+  "schema": "claude-obsidian.retrieval-queries.v1",
+  "title": "Original offline retrieval regression fixture, version 1",
+  "queries": [
+    {"id": "exact-address", "query": "c-100001", "expected_pages": ["wiki/concepts/Vault backup.md"], "category": "exact-id"},
+    {"id": "backup-phrase", "query": "independent backup archives", "expected_pages": ["wiki/concepts/Vault backup.md"], "category": "lexical"},
+    {"id": "journal-recovery", "query": "journal rolls back incomplete writes", "expected_pages": ["wiki/concepts/Recovery journal.md"], "category": "lexical"},
+    {"id": "multiple-relevant", "query": "vault backup restoration", "expected_pages": ["wiki/concepts/Vault backup.md", "wiki/concepts/Recovery journal.md"], "category": "multiple-gold"},
+    {"id": "french-accents", "query": "café mémoire souvenirs", "expected_pages": ["wiki/concepts/Café mémoire.md"], "category": "unicode"},
+    {"id": "japanese-substring", "query": "全文検索", "expected_pages": ["wiki/concepts/Recherche japonaise.md"], "category": "unicode"},
+    {"id": "romanian-accents", "query": "proveniență dovadă citabilă", "expected_pages": ["wiki/concepts/Cercetare română.md"], "category": "unicode"},
+    {"id": "semantic-synonym", "query": "weariness", "expected_pages": ["wiki/concepts/Wellbeing.md"], "category": "synonym"},
+    {"id": "current-conflict", "query": "current Aurora Nebula mirror 7443", "expected_pages": ["wiki/concepts/Current mirror.md"], "category": "conflicting-history"},
+    {"id": "stale-historical", "query": "copperbridge", "expected_pages": [], "category": "stale-negative"},
+    {"id": "canvas-shape", "query": "canvas background stacking edges", "expected_pages": ["wiki/concepts/Canvas groups.md"], "category": "lexical"},
+    {"id": "freshness-deadline", "query": "source review refresh deadline", "expected_pages": ["wiki/concepts/Research freshness.md"], "category": "lexical"},
+    {"id": "unknown-term", "query": "zqxvquantum", "expected_pages": [], "category": "unanswerable"},
+    {"id": "unrelated-request", "query": "thermonuclear submarine propulsion", "expected_pages": [], "category": "unanswerable"}
+  ]
+}
